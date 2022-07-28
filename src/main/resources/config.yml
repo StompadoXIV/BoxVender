@@ -1,0 +1,64 @@
+#################################################
+#                    BoxVender                  #
+#               Plugin by: Stompado             #
+#            Plugin exclusivo da BoxStore       #
+#               © Copyright BoxStore            #
+#################################################
+
+#Prefixo das mensagens
+Prefixo:
+  Ativar: true
+  Prefixo: '&e&lVENDA &8»'
+
+#Mensagens gerais
+Mensagens:
+  SemItems: '&cVocê não possui items para vender.'
+  ItemsVendidos: '&aVocê vendeu &7{quantia}x &ae recebeu &7{valor} &ade dinheiro.'
+  VendaComShiftAtivada: '&aA venda com shift foi ativada com sucesso.'
+  VendaAutomaticaAtivada: '&aA venda automática foi ativada com sucesso.'
+  VendaComShiftDesativada: '&aA venda com shift foi desativada com sucesso.'
+  VendaAutomaticaDesativada: '&aA venda automática foi desativada com sucesso.'
+  EmCooldown: '&cEspere &e{tempo} &cpara vender novamente.'
+
+#Configurações gerais
+Configuracoes:
+  Cooldowns:
+    Manualmente: 2 #Tempo para vender novamente no /vender em minutos
+    Shift: 5 #Tempo para vender novavente usando shift em minutos
+    Automaticamente: 10 #Tempo para vender novamente no automático em minutos
+  Formatos:
+    ItemsAVenda:
+      Nome: '{item_nome}'
+      Lore:
+        - ''
+        - '&fPreco por unidade: &7{preco_unidade}'
+        - '&fPreco por pack: &7{preco_pack}'
+        - '&fPreco por inventário: &7{preco_inventario}'
+
+Formatacao: #Altere e adicione quantas formatações quiser
+  - '' #Deixe vazio
+  - 'K'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'OC'
+  - 'N'
+  - 'D'
+  - 'UN'
+  - 'DD'
+  - 'TR'
+  - 'QR'
+  - 'QD'
+  - 'SD'
+  - 'SPD'
+  - 'OD'
+  - 'ND'
+  - 'VG'
+  - 'UVG'
+  - 'DVG'
+  - 'TVG'
+  - 'QTV'

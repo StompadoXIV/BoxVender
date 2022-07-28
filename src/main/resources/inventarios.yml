@@ -1,0 +1,74 @@
+Inventarios:
+  MenuPrincipal:
+    Nome: '&7Menu Principal'
+    Tamanho: 3
+    Items:
+      Vender:
+        Nome: '&aVender'
+        Material: 'NETHER_STAR:0'
+        Skull:
+          Ativar: true
+          Skull-URL: 'https://textures.minecraft.net/texture/b889cfcbacbe598e8a1cd8610b49fcb62644e8cba9d4911d121134506d8ea1b7'
+        Lore:
+          - ''
+          - '&7Clique aqui para vender seus items'
+        Slot: 10
+      ItemsAVenda:
+        Nome: '&aItems a Venda'
+        Material: 'BOOK:0'
+        Skull:
+          Ativar: true
+          Skull-URL: 'https://textures.minecraft.net/texture/f98bc63f05f6378bf29ef10e3d82acb3ceb73a720bf80f30bc576d0ad8c40cfb'
+        Lore:
+          - ''
+          - '&7Clique aqui para ver os items a venda'
+        Slot: 11
+      VendaComShift:
+        Nome: '&aVenda com Shift'
+        Material: 'PAPER:0'
+        Skull:
+          Ativar: false
+          Skull-URL: ''
+        Lore:
+          - ''
+          - '&7Clique aqui para ativar/desativar a venda com shift'
+        Slot: 15
+      VendaAutomatica:
+        Nome: '&aVenda Automatica'
+        Material: 'PAPER:0'
+        Skull:
+          Ativar: false
+          Skull-URL: ''
+        Lore:
+          - ''
+          - '&7Clique aqui para ativar/desativar a venda automatica'
+        Slot: 16
+  ItemsAVenda:
+    Nome: '&7Items a Venda'
+    Items:
+      ProximaPagina:
+        Nome: '&aPróxima página'
+        Material: 'ARROW:0'
+        Skull:
+          Ativar: true
+          Skull-URL: 'http://textures.minecraft.net/texture/aab95a8751aeaa3c671a8e90b83de76a0204f1be65752ac31be2f98feb64bf7f'
+        Lore:
+          - ''
+          - '&f➢ &7Clique aqui para'
+          - '&f➢ &7ir para a página &f{pagina}'
+          - '&f➢ &7dos &eitems'
+          - ''
+          - '&8☰ &aClique aqui para prosseguir'
+      PaginaAnterior:
+        Nome: '&cPágina anterior'
+        Material: 'ARROW:0'
+        Skull:
+          Ativar: true
+          Skull-URL: 'http://textures.minecraft.net/texture/1c5a8aa8a4c03600a2b5a4eb6beb51d590260b095ee1cdaa976b09bdfe5661c6'
+        Lore:
+          - ''
+          - '&f➢ &7Clique aqui para'
+          - '&f➢ &7ir para a pagina anterior'
+          - '&f➢ &7dos &eitems'
+          - ''
+          - '&8☰ &aClique aqui para voltar a pagina'

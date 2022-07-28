@@ -1,0 +1,8 @@
+name: BoxVender
+version: '1.0.0'
+depend: [Vault]
+main: me.vender.BoxVender
+authors: [ Stompado ]
+commands:
+  vender:
+    aliases: [sell]
