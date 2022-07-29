@@ -1,0 +1,10 @@
+#Crie quantos bônus quiser!
+Bonus:
+  vip:
+    Permissao: 'venda.vip'
+    Grupo: '&a[VIP]'
+    Porcentagem: 10
+  mvp:
+    Permissao: 'venda.mvp'
+    Grupo: '&b[MVP]'
+    Porcentagem: 25

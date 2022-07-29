@@ -1,0 +1,11 @@
+#Crie inúmeros items de venda!
+Items:
+  Diamante:
+    Nome: '&bDiamante'
+    Item: 'DIAMOND:0'
+    Preco: 100
+  Ouro:
+    Nome: '&eOuro'
+    Item: 'GOLD_INGOT:0'
+    Preco: 250
+

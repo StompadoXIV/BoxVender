@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BoxVender:jar">
+    <output-path>$PROJECT_DIR$/../OneDrive/Área de Trabalho/Servidor S/plugins</output-path>
+    <root id="archive" name="BoxVender.jar">
+      <element id="module-output" name="BoxVender.main" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/items.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/bonus.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/inventarios.yml" />
+    </root>
+  </artifact>
+</component>
